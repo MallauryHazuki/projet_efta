@@ -9,6 +9,8 @@ source("01_scripts/00_initialisation/init_dir.R")
 
 # 01. Import des fichiers Insee --------------------------------------------
 # TODO télécharger les bases utiles sur le site de l'Insee
+source("01_scripts/01_imports/import_naf.R")
+source("01_scripts/01_imports/import_cpf.R")
 
 
 # 02. Affinement ----------------------------------------------------------
