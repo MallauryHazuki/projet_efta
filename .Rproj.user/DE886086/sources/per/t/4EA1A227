@@ -3,7 +3,7 @@
     "path": "~/Perso/projet EFTA/01_scripts/MAIN_eftagen.R",
     "project_path": "01_scripts/MAIN_eftagen.R",
     "type": "r_source",
-    "hash": "3023700412",
+    "hash": "3940485541",
     "contents": "",
     "dirty": false,
     "created": 1769779468670.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "12,76",
+        "cursorPosition": "13,58",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1769780280,
+    "lastKnownWriteTime": 1769791626,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1769780280799,
+    "last_content_update": 1769791626853,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,7 +1,4 @@
-
-
 # EFTA - ENERGUMÈNES FRANCOMORPHES TOTALEMENT ALEATOIRES ------------------
-
 
 
 
