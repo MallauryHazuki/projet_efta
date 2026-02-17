@@ -15,5 +15,13 @@ naf_brut %>%
   mutate(filtrage = case_when(
     lib %in% grep(x = lib, pattern = "Autre", value = T) ~ "rebut",
     T ~ "selection"
-  ))
-    
+  )) -> naf_temp_select
+
+naf_select <- naf_temp_select %>% 
+  filter(filtrage == "selection") %>% 
+  mutate(id = 1:nrow(.)) %>% 
+  select(id, lib)
+
+cat(glue("
+    Créé le fichier 'naf_select' avec {nrow(naf_select)} lignes. 
+    "))
